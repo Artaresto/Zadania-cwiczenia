@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ave</title>
+    <script>
+        let haslo = parseInt(prompt("Podaj hasło:"));
+        
+        if (haslo==123){
+         document.write("Masz dostęp </br>");
+         let x = prompt("Podaj liczbę całkowitą:");
+         if (x>0){
+         document.write("Liczba " + x + " jest dodatnia");
+         }
+         else if (x==0){
+         document.write("Liczba "+ x + " to zero");
+         }
+         else if (x<0){
+         document.write("Liczba " + x + " jest ujemna");
+         }
+         
+        }
+        else {
+         document.write("Dostępu brak </br>");
+        }
+       
+
+
+    </script>
+</head>
+<body>
+    
+</body>
+</html>
